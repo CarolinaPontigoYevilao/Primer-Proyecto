@@ -3,30 +3,98 @@
     <head>
 	<meta charset="UTF-8">
         <title>Página de Big Data Caro</title>
+		<style>
+			/*Editando tags CSS */
+			body{
+				background-color:rgb(152, 125, 202);
+			}
+			table,tr,th,td{
+				border: 1px solid blue;
+			}
+			div{
+				border: 1px solid rgb(62, 8, 122);
+				margin: 20px;
+				padding: 10px;
+			}
+
+			/* Editando Clases */
+			.titulo{
+				text-align: center;
+			}
+			.centrado{
+				text-align: center;
+				background-color: aquamarine;
+			}
+			.unidad{
+				text-align: center;
+				background-color: rgb(219, 245, 127);
+				color:rgb(28, 228, 61)
+			}
+			.titulo-unidad{
+				font-size: 30px;
+				text-align: center;
+				color: rgb(78, 230, 48);
+			}
+			.contenido-unidad{
+				color:rgb(45, 80, 196)
+			}
+			/*editando id*/
+			#titulo-div{
+				color:lightcoral;
+			}
+			#titulo-img{
+				color:teal
+			}
+		</style>
     </head>
     <body>
+		<!--como crear div-->
 	<div>
-		<h1>Big Data</h1>
+	
+		<h1 class="unidad" id="titulo-div">Big Data</h1>
 		<div>
-		    <h2>Aprendiendo Big Data</h2>
-		    <p>La vida del html</p>
-		    <div>
-			<h3>Link (a)</h3>
-			<p>Como hacer un link &#60;a href="https://www.carolina.cl"&#62; ir 			a radio Carolina&#60;/a&#62;</p>
-			<a href="https://www.carolina.cl/">ir a radio Carolina</a>
+			<div class="unidad">
+		    <h2 class="titulo-unidad">Aprendiendo Big Data</h2>
+		    <p class=" contenido-unidad">La vida del html</p>
+			</div>
+		    <div class="unidad">
+			<!--como poner un link-->
+			<h3 class="titulo-unidad">Link (a)</h3>
+			<p class="contenido-unidad">Como hacer un link &#60;a href="https://www.carolina.cl"&#62; ir a radio Carolina&#60;/a&#62;</p>
+			<a class="contenido-unidad" href="https://www.carolina.cl/">ir a radio Carolina</a>
 		    </div>
-	            <div>
-			<h3> como hacer div</h3>
-			<p>&#60;div&#62;contenido&#60;/div&#62;</p>
-			<img src="div.png" width="800px">
+	            <div class="centrado">
+			<h3 class="titulo-unidad"> Como hacer div</h3>
+			<p class="contenido-unidad">&#60;div&#62;contenido&#60;/div&#62;</p>
+			<img src="div.png" width="500px">
       		    </div>
-	            <div>
-			<h3>imagen (img)</h3>
-			<p>como hacer una imagen &#60;img 								src="path/nombre_imagen.png"/&#62;</p>
-			<img src="lucy15.jpg" width="800px">
-                    </div>
+	            <div class="centrado">
+			<h3 id="titulo-img" class="titulo-unidad">imagen (img)</h3>
+			<p class="contenido-unidad">como hacer una imagen &#60;img src="path/nombre_imagen.png"/&#62;</p>
+			<img src="lucy15.jpg" width="500px">
                 </div>
-	            <h6>By Caro</h6>
+                </div>
+	            <h4 class="contenido-unidad">By Caro</h4>
+	<div>
+		<!-- cómo crear una tabla-->
+		<table>
+			<tr>
+				<th>Curso</th>
+			    <th>Asignatura</th>
+				<th>link</th>
+			</tr>
+			<tr>
+				<td>Primero básico</td>
+				<td>Lenguaje</td>
+				<td><a href="https://www.youtube.com/watch?v=duSAt-tp9Rw">Material Lenguaje</a></td>
+			</tr>
+			<tr>
+				<td>Segundo básico</td>
+				<td>Matemáticas</td>
+				<td><a href="https://julioprofe.net">Ir a Julio Profe</a></td>
+				</a></td>
+			</tr>
+		</table>
 	</div>
-    </body>
+</body>
 </html>
